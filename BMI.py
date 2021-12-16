@@ -1,0 +1,5 @@
+h = float(input("Wie gross sind sie in Metern? "))
+g = float(input("Wie schwer sind sie in Kilogramm? "))
+BMI = g / (h * h)
+BMI = float(BMI)
+print("Ihr BMI-Wert ist: " + str(BMI))
